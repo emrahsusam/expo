@@ -9,7 +9,18 @@ const Layout = () => {
         <Tabs.Screen 
         name="index"
         options={{
+            tabBarLabel: 'Index',
+        }} />
+         <Tabs.Screen 
+        name="explore"
+        options={{
             tabBarLabel: 'Explore',
+        }} />
+
+<Tabs.Screen 
+        name="explore"
+        options={{
+            tabBarLabel: 'Wishlist',
         }} />
     </Tabs>
   )
